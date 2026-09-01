@@ -1,1 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Cuotas - Corralón Comarca Andina</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+<div class="container">
+    <div class="logo-container">
+        <img src="https://corraloncomarca.com.ar/web2022/wp-content/uploads/2022/05/logo.png" alt="Corralón Comarca Andina">
+    </div>
+    
+    <h1>Cotizador de Planes de Pago</h1>
+    
+    <div class="form-group">
+        <label for="importe">Importe a cobrar:</label>
+        <input type="text" id="importe" placeholder="$ 0,00" style="font-size: 24px;">
+        <div class="hint">Usar la coma (,) para los centavos. Ej: 1500,50</div>
+    </div>
+
+    <div class="form-group">
+        <label for="tarjeta">Seleccionar Tarjeta / Promoción:</label>
+        <select id="tarjeta">
+            <option value="" disabled selected>-- Elegí una opción --</option>
+        </select>
+    </div>
+
+    <div class="results" id="resultados-container">
+        <div class="no-data">Ingresá un importe y seleccioná una tarjeta para ver las cuotas.</div>
+    </div>
+
+    <div class="footer">
+        &copy; 2026 Corralón Comarca Andina. Experiencia, responsabilidad y servicio.
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
