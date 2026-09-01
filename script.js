@@ -1,7 +1,7 @@
 const tarjetas = [
     {
         id: "patagonia365",
-        nombre: "Patagonia 365 (Posnet)",
+        nombre: "Patagonia 365",
         planes: [
             { cuotas: 1, recargo: 0, desc: "1 Pago" },
             { cuotas: 2, recargo: 7, desc: "2 Cuotas" },
@@ -40,7 +40,7 @@ const tarjetas = [
     },
     {
         id: "wapa",
-        nombre: "Visa y Mastercard - Banco Patagonia (WAPA)",
+        nombre: "Visa y Mastercard - Banco Patagonia",
         planes: [
             { cuotas: 1, recargo: 0, desc: "1 Pago" },
             { cuotas: 3, recargo: 0, desc: "3 Cuotas Sin Interés" }
